@@ -1,0 +1,5 @@
+pipeline:
+  build:
+    image: gonitro/sbt:0.13.17
+    commands:
+      - sbt clean test
